@@ -17,7 +17,7 @@ using std::runtime_error;
 using std::istringstream;
 
 map<string, string> buildMap(ifstream &map_file)
-{
+{  
     map<string, string> trans_map;   // holds the transformations
     string key;    // a word to transform
 	string value;  // phrase to use instead
